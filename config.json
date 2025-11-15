@@ -1,0 +1,28 @@
+{
+  "exploreRadius": 25,
+  "blockType": "dirt",
+  "canDig": false,
+  "buildingEnabled": true,
+  "autoSleep": true,
+  "bedSearchRadius": 16,
+  "combatSettings": {
+    "enabled": true,
+    "detectionRadius": 16,
+    "engagementDistance": 8,
+    "preferredWeapon": "diamond_sword"
+  },
+  "requiredInventory": {
+    "bed": 1,
+    "dirt": 64
+  },
+  "chestInteraction": {
+    "enabled": true,
+    "depositItems": {
+      "cobblestone": 16,
+      "stone": 16
+    },
+    "withdrawItems": {
+      "dirt": 8
+    }
+  }
+}
