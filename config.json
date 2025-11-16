@@ -13,7 +13,9 @@
   },
   "requiredInventory": {
     "bed": 1,
-    "dirt": 64
+    "dirt": 64,
+    "cobblestone": 16,
+      "stone": 16
   },
   "chestInteraction": {
     "enabled": true,
