@@ -1,10 +1,10 @@
 {
-  "exploreRadius": 25,
+  "exploreRadius": 40,
   "blockType": "dirt",
   "canDig": false,
   "buildingEnabled": true,
   "autoSleep": true,
-  "bedSearchRadius": 16,
+  "bedSearchRadius": 20,
   "combatSettings": {
     "enabled": true,
     "detectionRadius": 16,
@@ -19,10 +19,13 @@
     "enabled": true,
     "depositItems": {
       "cobblestone": 16,
-      "stone": 16
+      "stone": 16,
+      "dirt": 16
     },
     "withdrawItems": {
-      "dirt": 8
+      "dirt": 8,
+      "cobblestone": 16,
+      "stone": 16
     }
   }
 }
