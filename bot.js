@@ -13,8 +13,8 @@ try {
 }
 
 const botOptions = {
-  host: process.env.MINECRAFT_HOST || "craftpixel42.aternos.me",
-  port: parseInt(process.env.MINECRAFT_PORT, 10) || 12635,
+  host: process.env.MINECRAFT_HOST || "gameplanet.aternos.me",
+  port: parseInt(process.env.MINECRAFT_PORT, 10) || 51270,
   username: process.env.MINECRAFT_USERNAME || "Fighter",
   version: process.env.MINECRAFT_VERSION || "1.21.10",
   auth: process.env.MINECRAFT_AUTH || "offline",
