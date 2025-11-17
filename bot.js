@@ -15,7 +15,7 @@ try {
 const botOptions = {
   host: process.env.MINECRAFT_HOST || "gameplanet.aternos.me",
   port: parseInt(process.env.MINECRAFT_PORT, 10) || 51270,
-  username: process.env.MINECRAFT_USERNAME || "Fighter",
+  username: process.env.MINECRAFT_USERNAME || "HeroBrine",
   version: process.env.MINECRAFT_VERSION || "1.21.10",
   auth: process.env.MINECRAFT_AUTH || "offline",
   profilesFolder: "./auth-cache",
